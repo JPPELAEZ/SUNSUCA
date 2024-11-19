@@ -50,4 +50,153 @@
     color: #007bff;
     text-decoration: none;
   }
-  
+  /* Estilo general del contenedor */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Fondo del formulario */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del contenedor */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Título */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #4CAF50; /* Verde primario */
+  font-size: 1.8rem;
+}
+
+/* Campos de entrada */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Campos de entrada al foco */
+.login-container input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Botón */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50; /* Verde primario */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container button:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el cursor */
+}
+
+/* Enlace de registro */
+.login-container p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-container a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+/* Contenedor general del formulario de registro */
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Fondo del formulario */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra del contenedor */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Título */
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #4CAF50; /* Verde primario */
+  font-size: 1.8rem;
+}
+
+/* Campos de entrada */
+.register-container input,
+.register-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Campos de entrada al foco */
+.register-container input:focus,
+.register-container select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Selector de roles */
+.register-container select {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Botón */
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50; /* Verde primario */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container button:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el cursor */
+}
+
+/* Mensaje al pie */
+.register-container p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-container a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+}

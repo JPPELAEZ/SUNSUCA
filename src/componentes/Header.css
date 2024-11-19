@@ -1,23 +1,23 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #4CAF50;
-  }
-  
-  .logo {
-    height: 50px;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #A4d555;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'BW Sedio Round Demo', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

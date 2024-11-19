@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => (
   <header>
-    <img src="/path-to-logo.png" alt="SUNSUCA Logo" className="logo" />
+    <img src="../img/logo.png" alt="SUNSUCA Logo" className="logo" />
     <nav>
       <a href="#services">Servicios</a>
       <a href="#about">Nosotros</a>

@@ -1,0 +1,61 @@
+/* src/styles/UserHome.css */
+.user-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-home-header {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .user-home-nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .user-home-nav a {
+    text-decoration: none;
+    color: #28a745;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .user-home-nav a:hover {
+    color: #218838;
+  }
+  
+  .user-home-content {
+    margin-top: 30px;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .user-home-content h3 {
+    color: #333;
+  }
+  
+  .user-home-logout {
+    margin-top: 20px;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .user-home-logout:hover {
+    background-color: #c82333;
+  }
+  

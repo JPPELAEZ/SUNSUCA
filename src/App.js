@@ -5,7 +5,8 @@ import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
-
+import '../src/styles/global.css';
+import '../src/styles/Auth.css';
 const router = createBrowserRouter([
   { path: '/', element: <HomePage /> },
   { path: '/login', element: <Login /> },
@@ -24,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
